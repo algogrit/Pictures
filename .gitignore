@@ -1,7 +1,6 @@
 NE/
 *.json
-Tourist Info/
-27th Birthday/
-Assam-Meghalaya-WB-Sikkim-Assam/
-Test/
 .DS_Store
+*.png
+*.webp
+*.m4v
