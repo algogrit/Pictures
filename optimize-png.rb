@@ -18,8 +18,10 @@ all_files.each do |file|
   # `cwebp -lossless "#{file}" -o "#{webp_name}"`
 end
 
-`mkdir -p "#{pic_dir}/Compressed"`
-command = "mv '#{pic_dir}/'*.webp '#{pic_dir}/Compressed/'"
+command = "mkdir -p '#{pic_dir}'/Compressed"
+puts command
+exec command
 
+command = "mv '#{pic_dir}/'*.webp '#{pic_dir}/Compressed/'"
 puts command
 exec command
