@@ -20,7 +20,7 @@ end
 
 command = "mkdir -p '#{pic_dir}'/Compressed"
 puts command
-exec command
+system command
 
 command = "mv '#{pic_dir}/'*.webp '#{pic_dir}/Compressed/'"
 puts command
